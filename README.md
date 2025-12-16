@@ -37,7 +37,7 @@ Follow the steps below to run the project locally.
 
 ### 1️⃣ Clone the Repository
 
-```bash
+
 git clone https://github.com/Tushar161616/pet-pooja-app.git
 
 
@@ -53,5 +53,8 @@ npm install
 
 npm run dev
 
-Live Link : https://pet-pooja-app.vercel.app/
+
+
+
+<a href="https://pet-pooja-app.vercel.app/">Live Link</a>
 
