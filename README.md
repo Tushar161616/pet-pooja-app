@@ -53,5 +53,5 @@ npm install
 
 npm run dev
 
-<a href="https://pet-pooja-app.vercel.app/">Live Link </a>
+Live Link : https://pet-pooja-app.vercel.app/
 
