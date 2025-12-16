@@ -1,12 +1,57 @@
-# React + Vite
+# 🍽️ Pet Pooja – Food Ordering Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React-based food ordering web application** inspired by Pet Pooja.  
+This project focuses on **frontend development**, reusable components, routing, and UI/UX best practices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Landing Page
+- Restaurant Listing Page
+- Restaurant Cards (rating, distance, open/close status)
+- React Router based navigation
+- Responsive UI
+- Component-based architecture
+- Mock JSON data for restaurants
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM
+- JavaScript (ES6+)
+- HTML5
+- CSS / Tailwind CSS
+- Mock JSON Data
+
+---
+
+
+---
+
+## ⚙️ Setup Instructions
+
+Follow the steps below to run the project locally.
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Tushar161616/pet-pooja-app.git
+
+
+2️⃣ Navigate to Project Directory
+
+cd pet-pooja-app
+
+3️⃣ Install Dependencies
+
+npm install
+
+4️⃣ Start the Development Server
+
+npm run dev
+
+<a href="https://pet-pooja-app.vercel.app/">Live Link </a>
+
