@@ -7,6 +7,7 @@ const FoodContext = ({children}) => {
     const [cat,setCat] = useState(FoodData);
     let [input,setInput] = useState("");
     let [scart,setScart] = useState(false);
+    let [srch,setSrch] = useState(false);
 
     let data = {
         input,
@@ -15,6 +16,8 @@ const FoodContext = ({children}) => {
         setCat,
         scart,
         setScart,
+        srch,
+        setSrch,
     }
 
 

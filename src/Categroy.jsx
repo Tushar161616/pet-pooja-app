@@ -11,37 +11,37 @@ const Categroy = [
     {
         id : 1,
         name : "All",
-        icon : <RiApps2AiLine className="w-10 h-10 text-red-500"/>,
+        icon : <RiApps2AiLine className="w-10 h-10 text-orange-400"/>,
     },
     {
         id : 2,
         name : "breakfast",
-        icon : <MdOutlineFreeBreakfast className="w-10 h-10 text-red-500"/>,
+        icon : <MdOutlineFreeBreakfast className="w-10 h-10 text-orange-400"/>,
     },
     {
         id : 3,
         name : "soup",
-        icon : <LuSoup className="w-10 h-10 text-red-500"/>,
+        icon : <LuSoup className="w-10 h-10 text-orange-400"/>,
     },
     {
         id : 4,
         name : "pasta",
-        icon : <CiBowlNoodles className="w-10 h-10 text-red-500"/>,
+        icon : <CiBowlNoodles className="w-10 h-10 text-orange-400"/>,
     },
     {
         id : 5,
         name : "pizza",
-        icon : <GiFullPizza className="w-10 h-10 text-red-500"/>,
+        icon : <GiFullPizza className="w-10 h-10 text-orange-400"/>,
     },
     {
         id : 6,
         name : "burger",
-        icon : <GiHamburger className="w-10 h-10 text-red-500"/>,
+        icon : <GiHamburger className="w-10 h-10 text-orange-400"/>,
     },
     {
         id : 7,
         name : "thali",
-        icon : <GiRoundShield className="w-10 h-10 text-red-500"/>,
+        icon : <GiRoundShield className="w-10 h-10 text-orange-400"/>,
     },
 ]
 

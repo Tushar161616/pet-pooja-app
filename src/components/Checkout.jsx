@@ -7,20 +7,20 @@ const Checkout = ({id,name,price,image,qty}) => {
     const dispatch = useDispatch();
 
   return (
-    <div className='px-2 rounded shadow-2xl w-full h-[20vh] flex  justify-between items-center  mb-5'>
+    <div className=' p-5 rounded shadow-2xl w-full h-[22vh] flex  justify-between items-center  mb-5 2xl:h-[30vh]'>
         {/* left section */}
-        <div className=' w-full h-full flex flex-col items-center justify-between 2xl:flex-row 2xl:w-[60%]'>
-            <img src={image}  className=' h-[80%] w-[60%] rounded-xl ' />
+        <div className='w-full h-full flex flex-col items-center justify-between md:flex-row xl:flex-row 2xl:flex-row 2xl:w-[60%]'>
+            <img src={image}  className=' h-[80%] w-[60%] rounded-xl 2xl:w-[40%] 2xl-h-full ' />
 
             {/* name div */}
             <div className=' flex flex-col  h-full justify-around w-full items-center 2xl:w-[40%]'>
                 <div className='text-lg  pl-2'>{name}</div>
 
                 {/* plus/minus button */}
-                <div className='text-lg text-red-500 shadow-2xl flex items-center border justify-around w-25 h-10 rounded-xl '>
-                    <button onClick={()=> qty>1 ? dispatch(DecQty(id)): 1} className='rounded-l-xl h-full w-full hover:bg-red-200'>-</button>
+                <div className='text-lg text-orange-400 shadow-2xl flex items-center border justify-around w-25 h-10 rounded-xl '>
+                    <button onClick={()=> qty>1 ? dispatch(DecQty(id)): 1} className='rounded-l-xl h-full w-full hover:bg-orange-100'>-</button>
                     <div>{qty}</div>
-                    <button onClick={()=>dispatch(IncQty(id))} className='rounded-r-xl h-full w-full hover:bg-red-200'>+</button>
+                    <button onClick={()=>dispatch(IncQty(id))} className='rounded-r-xl h-full w-full hover:bg-orange-100'>+</button>
                 </div>
             </div>
         </div>
